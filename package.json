@@ -1,0 +1,24 @@
+{
+  "name": "pdf-diff",
+  "version": "0.1.0",
+  "description": "Compare 2 PDFs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write **/*.js"
+  },
+  "keywords": [
+    "pdf",
+    "diff",
+    "json"
+  ],
+  "author": "James Vickery",
+  "license": "ISC",
+  "dependencies": {
+    "json-diff": "^0.5.4",
+    "pdf2json": "^1.1.8"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  }
+}
