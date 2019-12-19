@@ -12,6 +12,8 @@
     "diff",
     "json"
   ],
+  "homepage": "https://github.com/jmsv/pdf-diff#readme",
+  "repository": "github:com/jmsv/pdf-diff",
   "author": "James Vickery",
   "license": "ISC",
   "dependencies": {

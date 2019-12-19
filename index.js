@@ -7,12 +7,11 @@ const getPdf = filename => {
   return new Promise((resolve, reject) => {
     pdfParser.on('pdfParser_dataError', errData => {
       const error = errData.parserError
-      console.log('errData :', errData)
+      console.log('pdf-diff error :', errData)
       return reject(error)
     })
 
     pdfParser.on('pdfParser_dataReady', pdfData => {
-      console.log('loaded', filename)
       return resolve(pdfData)
     })
 

@@ -26,3 +26,14 @@ diff('./file1.pdf', './file2.pdf')
   })
 ```
 
+## Changelog
+
+### `0.1.1`
+
+- Removed console logs
+- Docs
+- Node gitignore
+
+### `0.1.0`
+
+Initial version
