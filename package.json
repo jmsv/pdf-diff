@@ -17,8 +17,8 @@
   "author": "James Vickery",
   "license": "ISC",
   "dependencies": {
-    "json-diff": "^0.5.4",
-    "pdf2json": "^1.1.8"
+    "json-diff": "^0.7.4",
+    "pdf2json": "^2.0.1"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
